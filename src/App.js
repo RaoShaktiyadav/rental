@@ -1,6 +1,6 @@
 import "./App.css";
 import "./component/Home.css";
-import logo from './component/img/logo.jpg'
+import logo from './component/img/logo.png'
 import React, { Component } from "react";
 import {
     BrowserRouter as Router,
