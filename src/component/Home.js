@@ -7,6 +7,15 @@ import g4 from './img/f4.png'
 import g5 from './img/f5.png'
 import g6 from './img/f6.png'
 
+import f1 from './img/black s11.jpg'
+import f2 from './img/white s11.jpg'
+import f3 from './img/black classic s11.jpg'
+import f4 from './img/Mahindra-Thar-.jpg'
+import f5 from './img/white s11.jpg'
+import f6 from './img/white s11.jpg'
+import f7 from './img/white s11.jpg'
+import f8 from './img/white s11.jpg'
+
 function Home() {
     return (
     <div className="hback">
@@ -46,6 +55,127 @@ function Home() {
           <h6>24/7 Support</h6>
         </div>
       </section>
+
+
+      <section class="product-section">
+        <h1 className="h1">Available Cars</h1>
+        <p>All Types Cars Top Models</p>
+        <div class="pro-collection">
+          <div class="product-cart">
+            <img src={f1} alt="product image"/>
+            <span>Mahindra</span>
+            <h4>Black Scorpio S11</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <h4 class="price">₹5000</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src={f2} alt="product image"/>
+            <span>Mahindra</span>
+            <h4>White Scorpio S11</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <h4 class="price">₹5000</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src={f3} alt="product image"/>
+            <span>Mahindra</span>
+            <h4>Black classic Scorpio S11</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <h4 class="price">₹5500</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src={f4} alt="product image"/>
+            <span>Mahindra</span>
+            <h4>Black Thar 4*4</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <h4 class="price">₹6000</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src={f5} alt="product image"/>
+            <span>adidas</span>
+            <h4>Cartoon Astronaut T-Shirts</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src={f6} alt="product image"/>
+            <span>adidas</span>
+            <h4>Cartoon Astronaut T-Shirts</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src={f7} alt="product image"/>
+            <span>adidas</span>
+            <h4>Cartoon Astronaut T-Shirts</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src={f8} alt="product image"/>
+            <span>adidas</span>
+            <h4>Cartoon Astronaut T-Shirts</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </section>
+
    
       </div>
     )
