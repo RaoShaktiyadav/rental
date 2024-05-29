@@ -26,7 +26,7 @@
   }
   #hero h1 {
     color: #f00808;
-    font-size: 70px;
+    font-size: 60px;
   
   }
   #hero button {
@@ -165,5 +165,145 @@
     right: 10px;
     bottom: 10px;
   }
+  .butt{
+    margin: 0% 40%;
+    background-color:transparent;
+    background-image: url(./img/button.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 260px;
+    height: 60px;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    color: #088178;
+    padding: 14px 65px 14px 65px;
+  }
   
+
+
+
+
+  #banners {
+    margin: 0 60px;
+  }
+  .a{
+    color: #fcfcfb;
+  }
+  #banners ,
+  h4,
+  span {
+    color: rgb(3, 3, 3);
+    text-shadow: #cdebbc;
+  }
+  #banners .big-banners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #banners .big-banners div {
+    min-width: 580px;
+    margin: 15px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px;
+    background-size: cover;
+    backdrop-filter: blur(8%);
+  }
+  #banners .big-banners button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    color: rgb(248, 248, 248);
+    border: 1px solid rgb(248, 248, 248);
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  #banners .big-banners div:hover button {
+    background-color: #088178;
+    border: 1px solid #088178;
+  }
+  #banners .big-banners-1 {
+    background-image: url(./img/bmw\ bg.jpg);
+  }
+  #banners .big-banners-2 {
+    background-image: url(./img/bmw\ bg1.jpg);
+  }
+  #banners .small-banners-1 {
+    background-image: url(./img/bmw\ bg2.jpg);
+  }
+  #banners .small-banners-2 {
+    background-image: url(./img/bmw\ bg3.jpg);
+  }
+  #banners .small-banners-3 {
+    background-image: url(./img/bmw\ bg4.jpg);
+  }
+  #banners .small-banners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #banners .small-banners div {
+    min-width: 370px;
+    height: 200px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px;
+    background-size: cover;
+  }
+  #banners .small-banners h2 {
+    font-size: 25px;
+  }
+  #banners .small-banners h5 {
+    color: #771818;
+  }
+
+
+.b{
+  width: 90px;
+  height: 10vh;
+}
+  
+#footer{
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+  padding: 65px;
+  background-color: #bdf2f3;
+  
+}
+
+#footer p, #footer a{
+  color: rgb(109, 109, 109);
+  text-decoration: none;
+}
+#footer a:hover{
+  color:#088178;
+}
+#footer .about a{
+  display: block;
+  padding:8px 0;
+  margin-top: 10%;
+}
+#footer .myaccount a{
+  display: block;
+  padding:8px 0;
+  margin-top: 10%;
+}
+
+
+
+
+
+
+
   

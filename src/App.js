@@ -1,5 +1,6 @@
 import "./App.css";
 import "./component/Home.css";
+import "./component/Cars.css";  
 import logo from './component/img/logo.png'
 import React, { Component } from "react";
 import {
@@ -9,6 +10,8 @@ import {
     Link,
 } from "react-router-dom";
 import Home from "./component/Home";
+import Cars from "./component/Cars";
+import Blog from "./component/Blog";
 import About from "./component/About";
 import Contact from "./component/Contact";
 
@@ -53,6 +56,14 @@ class App extends Component {
                         <Route
                             path="/"
                             element={<Home />}
+                        ></Route>
+                        <Route
+                            path="/cars"
+                            element={<Cars/>}
+                        ></Route>
+                        <Route
+                            path="/Blog"
+                            element={<Blog />}
                         ></Route>
                         <Route
                             path="/about"
