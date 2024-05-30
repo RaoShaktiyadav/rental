@@ -1,6 +1,7 @@
 import "./App.css";
 import "./component/Home.css";
-import "./component/Cars.css";  
+import "./component/Cars.css"; 
+import "./component/Contact.css"; 
 import logo from './component/img/logo.png'
 import React, { Component } from "react";
 import {

@@ -1,0 +1,55 @@
+.ca{
+    background-image: url("./img/cont.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.cd{
+    display: flex;
+    background-color: blanchedalmond;
+    height: 50vh;
+    width: 100%;
+    height: 60vh;
+}
+.cb{
+    border: 1px solid black;
+    margin: 3% 3%;
+    width: 45%;
+    height: 50vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 400;
+    padding: 4% 4% ;
+    
+}
+.cf{
+    background-color: brown;
+    margin-left: 40%;
+    width: 19%;
+}
+input {
+    width:90% ;
+  
+}
+textarea{
+    width: 90%;
+}
+.ce{
+    line-height: 140px;
+    color: rgb(231, 160, 45);
+    border-color: blue;
+    border-width: 9px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cc{
+    border: 1px solid black;
+    height: 50vh;
+    width: 45%;
+    margin: 3% 3%;
+    
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
