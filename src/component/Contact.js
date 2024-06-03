@@ -29,6 +29,30 @@ function Contact() {
 
         </div>
 
+        <section>
+
+
+        </section>
+
+        {/* <section class="faq_needhelp" id="faq_needhelp">
+				<div class="section">
+					<div class="container">
+						<div class="faq_ttl"></div>
+						<div class="faq_crfg">
+	<ul>
+		<li><i class="spriteFaq in"></i><span>(IND)</span> <a class="dialEvent" href="tel:1800-41-99099">1800-41-99099</a></li>
+	</ul>                        
+	<p>WRITE TO US AT, <span> <b><a class="emailEvent" href="mailto:services@99acres.com">services@99acres.com</a></b></span></p>
+	<a class="wapbtn whatsAppEvent" href="https://web.whatsapp.com/send/?phone=918826821122&amp;text=Hi" target="_blank"><i class="spriteFaq"></i> WHATSAPP US</a>
+	<div class="calbtn callbackPop callUsEvent"><i class="spriteFaq"></i> CALL ME BACK</div>
+	<div class="otrcnt"><i class="spriteFaq glb"></i><span class="phn">INTERNATIONAL USERS, CALL <span>  <b><a class="dialEvent" href="tel:+91-120-6637501">+91-120-6637501</a></b></span></span><i class="spriteFaq arw"></i>
+		
+	</div>
+	<span class="txt">Please call us at <a class="dialEvent" href="tel:1800-41-99099">1800-41-99099</a> (09:30 AM to 06:30 PM, Monday to Sunday) or write to us at <a class="emailEvent" href="mailto:services@99acres.com">services@99acres.com</a></span>
+</div>					</div>
+				</div>
+			</section> */}
+
        </div>
     );
 }
