@@ -1,4 +1,6 @@
 import React from "react";
+import { useRef } from "react";
+
 import log from './img/logo.png'
 import g1 from './img/f1.png'
 import g2 from './img/f2.png'
@@ -17,7 +19,19 @@ import f7 from './img/verna.jpg'
 import f8 from './img/i20.jpg'
 
 function Home() {
+  
+        
+    
+      
+    
+
     return (
+     
+
+
+
+
+
     <div className="hback">
      <section id="hero">
         <h4>Cars For Rental</h4>
@@ -265,3 +279,6 @@ function Home() {
 }
 
 export default Home;
+
+
+

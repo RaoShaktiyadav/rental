@@ -1,14 +1,19 @@
+
+
+import {FaBars, FaTimes } from "react-icons/fa";
 import "./App.css";
 import "./component/Home.css";
 import "./component/Cars.css"; 
 import "./component/Contact.css"; 
+import "./component/Blog.css";
 import logo from './component/img/logo.png'
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import {
     BrowserRouter as Router,
     Routes,
     Route,
     Link,
+    useSearchParams,
 } from "react-router-dom";
 import Home from "./component/Home";
 import Cars from "./component/Cars";
@@ -17,16 +22,36 @@ import About from "./component/About";
 import Contact from "./component/Contact";
 
 
-class App extends Component {
-    render() {
-        return (
+
+    
+   
+
+    
+export const  App = () => {
+     const [menuOpen, setMenuOpen]= useState(false);
+
+
+
+    return (
             <Router>
                 <div className="App">
                <div className="imaged">
                             <img className='i1' src={logo}  />
                            
                             </div>
-                    <ul className="App-header">
+                            <div className="menu" onClick={() => {
+                                setMenuOpen(!menuOpen);
+                                }}
+                                >
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    
+
+                                </div>
+
+                           
+                    <ul id="App-header" className={menuOpen ? "open" : ""}>
                         <li>
                             <Link to="/">Home</Link>
                         </li>
@@ -50,9 +75,13 @@ class App extends Component {
                                 Contact Us
                             </Link>
                         </li>
+                      
+
+                        
+                    </ul >
                     
-                    </ul>
-                    
+                   
+                   
                     <Routes>
                         <Route
                             path="/"
@@ -78,7 +107,8 @@ class App extends Component {
                 </div>
             </Router>
         );
-    }
-}
-
+    
+    };
+ 
 export default App;
+
