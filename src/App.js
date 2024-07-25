@@ -34,53 +34,44 @@ export const  App = () => {
 
     return (
             <Router>
-                <div className="App">
-               <div className="imaged">
-                            <img className='i1' src={logo}  />
-                           
-                            </div>
-                            <div className="menu" onClick={() => {
-                                setMenuOpen(!menuOpen);
-                                }}
-                                >
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    
+                <div>
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <div class="container-fluid">
+          <img src={logo} class="navbar-brand" />
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+              </li>
+              <li class="nav-item">
+                <Link class="nav-link active" aria-current="page" to="/Cars">Cars</Link>
+              </li>
+              <li class="nav-item">
+                <Link class="nav-link active" aria-current="page" to="/Blog">Blog</Link>
+              </li>
+              <li class="nav-item">
+                <Link class="nav-link active" aria-current="page" to="/About">About</Link>
+              </li>
+              <li class="nav-item">
+                <Link class="nav-link active" aria-current="page" to="/Contact">Contact</Link>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
-                                </div>
 
-                           
-                    <ul id="App-header" className={menuOpen ? "open" : ""}>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/Cars">
-                                Cars
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/Blog">
-                                Blog
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/About">
-                                About 
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/Contact">
-                                Contact Us
-                            </Link>
-                        </li>
-                      
 
-                        
-                    </ul >
-                    
-                   
+    
+      
                    
                     <Routes>
                         <Route

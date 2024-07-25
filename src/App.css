@@ -1,104 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "League Spartan", sans-serif;
-  
+.navbar-brand{
+  width: 8%;
+  height: 100%;
+  margin: 0% 9%;
 }
-
-.App{
-  background-color: #e5e5f5;
-  
-}
-.imaged{
-  position: sticky;
-  top: 0;
-  width: 100%;
-}
-#App-header{
-  position: sticky;
-  top: 0;
-  width: 60%;
-  height: 14vh;
-  display: flex;
-  background-color: #f1f1f4;
-  
-  
- 
-}
-
-
-.i1{
-  position: sticky;
-  top: 0;
-  margin: 0% 0%;
-  padding: 0% 15%;
-  height: 14vh;
-  width: 40%;
-  float: left;
-  
-  background-color: #f1f1f4;
-}
-
-.tex{
-  
-  width: 100%;
-  padding-left: 20%;
-  
-  
-}
-li{
-  
-  width: 17%;
-  line-height: 15vh;
+.active{
   font-weight: 700;
-  list-style: none;
-  margin: 0% 0% 0% 0%;
   
- 
 }
-.menu{
-  display: none;
-  position: absolute;
-  top: 0.75rem;
-  flex-direction: column;
+.nav-link{
   justify-content: space-between;
-  width: 2.25rem;
-  height: 2rem;
-}
-.menu span{
-  height: 0.4rem;
-  width: 100%;
-  background-color: blue;
-  border-radius: 0.2rem;
 }
 
-
-
-@media only screen and ( max-width:480px){
-  .menu{
-    display: flex;
-  }
- .App{
-    
-    flex-direction: column;
-    align-items: start;
-  }
-  .App ul{
-    display: none; 
-   flex-direction: column;
-   width: 100%;
-   margin-bottom: 0.25rem;
-  }
-  .App ul.open{
-    display: flex;
-  }
-  .App ul li {
-    width: 100%;
-    text-align: center;
-  }
-  .App ul li Link {
-    margin: 0.2rem 0.5rem;
-  }
-
-}
