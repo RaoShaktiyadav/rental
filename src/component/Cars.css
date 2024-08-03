@@ -56,3 +56,73 @@
   .carousel-item{
     height: 10vh;
   }
+
+
+
+  /* footer */
+
+ .footer-section{
+  background-color: #ffd6d65e;
+}
+/*.container{
+  border: 1px solid green;
+}
+.footer-cta{
+  border: 1px solid black;
+  
+}
+.row{
+  
+  border: 1px solid black;
+}
+.col-xl-4{
+  border: 1px solid rebeccapurple;
+}
+.single-cta{
+  border: 1px solid hotpink;
+} */
+
+.fas {
+  padding: 5% 5%;
+  color: #088178;
+  font-size: x-large;
+
+float: left; 
+}
+.far{
+  font-size:x-large;
+  color: #088178;
+  padding: 5% 5%;
+  float: left; 
+  }
+ h4{
+  margin: 0% 10%;
+ }
+ .img-fluid{
+  height: 50%;
+  width: 60%;
+ } 
+ .col-lg-4{
+  margin-left: 12%;
+  
+}
+.footex{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.fa-brands{
+  font-size: xx-large;
+  background-color: rgb(20, 216, 20);
+}
+#button{
+  background-color: rgb(20, 216, 20);
+  margin: 0% 3% 3% 3%;
+}
+.inco{
+  background-color: #000000;
+  
+}
+
+#but{
+background-color: #2242f2;
+}

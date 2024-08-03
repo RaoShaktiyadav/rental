@@ -65,6 +65,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   #features .f-box {
     width: 180px;
@@ -187,6 +190,7 @@
 
   #banners {
     margin: 0 60px;
+    
   }
   .a{
     color: #fcfcfb;
@@ -272,43 +276,223 @@
   width: 90px;
   height: 10vh;
 }
-  
-#footer{
-  
-  display: flex;
-  align-items:flex-start;
-  justify-content: space-between;
-  padding: 65px;
-  background-color: #161818;
-  
-}
+/* footer */
 
-#footer p, #footer a{
-  color: rgb(252, 249, 249);
-  text-decoration: none;
+ .footer-section{
+  background-color: #ffd6d65e;
 }
-#footer a:hover{
-  color:#088178;
+/*.container{
+  border: 1px solid green;
 }
-#footer .about a{
-  display: block;
-  padding:8px 0;
-  margin-top: 10%;
-}
-#footer .myaccount a{
-  display: block;
-  padding:8px 0;
-  margin-top: 10%;
-}
-.fh{
-  color: #dada93;
-}
-
-
-@media only screen and (max-width: 600px) {
+.footer-cta{
+  border: 1px solid black;
   
 }
-
-
-
+.row{
   
+  border: 1px solid black;
+}
+.col-xl-4{
+  border: 1px solid rebeccapurple;
+}
+.single-cta{
+  border: 1px solid hotpink;
+} */
+
+.fas {
+  padding: 5% 5%;
+  color: #088178;
+  font-size: x-large;
+
+float: left; 
+}
+.far{
+  font-size:x-large;
+  color: #088178;
+  padding: 5% 5%;
+  float: left; 
+  }
+ h4{
+  margin: 0% 10%;
+ }
+ .img-fluid{
+  height: 50%;
+  width: 60%;
+ } 
+ .col-lg-4{
+  margin-left: 12%;
+  
+}
+.footex{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.fa-brands{
+  font-size: xx-large;
+  background-color: rgb(20, 216, 20);
+}
+#button{
+  background-color: rgb(20, 216, 20);
+  margin: 0% 3% 3% 3%;
+}
+.inco{
+  background-color: #000000;
+  
+}
+
+#but{
+background-color: #2242f2;
+}
+
+
+/* media Query */
+ @media only screen and (max-width:600px){
+  #hero{
+    
+    background-image: url('./img/b\ scorpi.png');
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  
+  width: 100%;
+    height: 10vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 80px;
+  }
+    
+  #hero h4 {
+    padding-bottom: 15px;
+    font-size: 19px;
+  }
+  #hero h2{
+    font-size: 29px;
+    color: rgb(88, 155, 238);
+  
+  }
+  #hero h1 {
+    color: #f00808;
+    font-size: 29px;
+  
+  }
+  #hero button {
+    background-color:transparent;
+    background-image: url(./img/button.png);
+    
+    width: 260px;
+    height: 60px;
+    border: 0;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 700;
+    color: #088178;
+    padding: 14px 65px 14px 65px;
+  }
+  p{
+    font-size: 19px;
+    
+    color: beige;
+  }
+
+  #banners {
+    margin: 0 60px;
+    
+  }
+  .a{
+    color: #fcfcfb;
+  }
+  #banners ,
+  h4,
+  span {
+    font-size: small;
+    color: rgb(3, 3, 3);
+    text-shadow: #cdebbc;
+  }
+  #banners .big-banners {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #banners .big-banners div {
+    min-width:90%;
+   margin: 0%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px;
+    background-size: cover;
+    backdrop-filter: blur(8%);
+  }
+  #banners .big-banners button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: transparent;
+    color: rgb(248, 248, 248);
+    border: 1px solid rgb(248, 248, 248);
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  #banners .big-banners div:hover button {
+    background-color: #088178;
+    border: 1px solid #088178;
+  }
+  #banners .big-banners-1 {
+    background-image: url(./img/bmw\ bg.jpg);
+  }
+  #banners .big-banners-2 {
+    background-image: url(./img/bmw\ bg1.jpg);
+  }
+  #banners .small-banners-1 {
+    background-image: url(./img/bmw\ bg2.jpg);
+  }
+  #banners .small-banners-2 {
+    background-image: url(./img/bmw\ bg3.jpg);
+  }
+  #banners .small-banners-3 {
+    background-image: url(./img/bmw\ bg4.jpg);
+  }
+  #banners .small-banners {
+    display: grid;
+    
+    justify-content: space-around;
+  }
+  #banners .small-banners div {
+    min-width: 90%;
+    height: 200px;
+    margin: 15px;
+    display: grid;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding: 20px;
+    background-size: cover;
+  }
+  #banners .small-banners h2 {
+    font-size: 20px;
+  }
+  #banners .small-banners h5 {
+    color: #771818;
+  }
+
+
+.b{
+  width: 90px;
+  height: 10vh;
+}
+
+.butt{
+  margin: 0% 17%;
+ 
+}
+.inco{
+  background-color: #000000;
+  width: 60%;
+}  
+}; 

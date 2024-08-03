@@ -1,19 +1,16 @@
-
-
-import {FaBars, FaTimes } from "react-icons/fa";
 import "./App.css";
 import "./component/Home.css";
 import "./component/Cars.css"; 
 import "./component/Contact.css"; 
 import "./component/Blog.css";
+import "./component/About.css";
 import logo from './component/img/logo.png'
-import React, { Component, useState } from "react";
 import {
     BrowserRouter as Router,
     Routes,
     Route,
     Link,
-    useSearchParams,
+    
 } from "react-router-dom";
 import Home from "./component/Home";
 import Cars from "./component/Cars";
@@ -28,8 +25,7 @@ import Contact from "./component/Contact";
 
     
 export const  App = () => {
-     const [menuOpen, setMenuOpen]= useState(false);
-
+    
 
 
     return (
@@ -37,7 +33,7 @@ export const  App = () => {
                 <div>
         <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
         <div class="container-fluid">
-          <img src={logo} class="navbar-brand" />
+          <img src={logo} class="navbar-brand"  alt="img"/>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

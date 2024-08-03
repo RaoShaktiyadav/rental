@@ -1,5 +1,5 @@
 import React from "react";
-import { useRef } from "react";
+
 
 import log from './img/logo.png'
 import g1 from './img/f1.png'
@@ -52,11 +52,12 @@ function Home() {
           <img src={g2} alt="online order"/>
           <h6>Online Booking</h6>
         </div>
-        <div class="f-box">
+        <div class="f-box thr">
           <img src={g3} alt="save money"/>
           <h6>Save money</h6>
         </div>
-        <div class="f-box">
+       
+        <div class="f-box  ">
           <img src={g4} alt="promotions"/>
           <h6>Promotions</h6>
         </div>
@@ -229,8 +230,96 @@ function Home() {
 
 
 
-
-      <footer>
+      <footer className="footer-section">
+    <div className="container">
+        <div className="footer-cta pt-5 pb-5">
+            <div className="row">
+                <div className="col-xl-4 col-md-4 mb-30">
+                    <div className="single-cta">
+                        <i className="fas fa-map-marker-alt"></i>
+                        <div className="cta-text">
+                            <h4 className="footex">Find us</h4>
+                            <span className="footex">1010 Avenue, sw 54321, chandigarh</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-xl-4 col-md-4 mb-30">
+                    <div className="single-cta">
+                        <i className="fas fa-phone"></i>
+                        <div className="cta-text">
+                            <h4 className="footex">Call us</h4>
+                            <span>9876543210 0</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-xl-4 col-md-4 mb-30">
+                    <div className="single-cta">
+                        <i className="far fa-envelope-open"></i>
+                        <div className="cta-text">
+                            <h4 className="footex">Mail us</h4>
+                            <span className="footex">mail@info.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="footer-content pt-5 pb-5">
+            <div className="row">
+                <div className="col-xl-4 col-lg-4 mb-50">
+                    <div className="footer-widget">
+                        <div className="footer-logo">
+                            <img src={log} class="img-fluid" alt="logo"/>
+                        </div>
+                        
+                    </div>
+                </div>
+                {/* <div className="col-xl-4 col-lg-4 col-md-6 mb-30  d-xl-flex justify-content-center">
+                    <div className="footer-widget">
+                        <div className="footer-widget-heading">
+                            <h3>Useful Links</h3>
+                        </div>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                              <li><a href="/privacy-policy">Privacy Policy</a></li>
+                                <li><a href="/terms">Terms &amp; Conditions</a></li>
+                        </ul>
+                    </div>
+                </div> */}
+                <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div className="footer-widget">
+                        <div className="footer-widget-heading">
+                            <h3 className="footex">Subscribe</h3>
+                        </div>
+                        <div className="footer-text mb-25">
+                            <p className="footex">Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                        </div>
+                        <div className="subscribe-form">
+                            <form action="#" class="ng-pristine ng-valid">
+                                <input className="inco" type="text" placeholder="Email Address"/>
+                                <button id="but"><i className="fab fa-telegram-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button  id="button" ><i class="fa-brands fa-whatsapp"></i></button>
+    
+    {/* <div className="copyright-area">
+        <div className="container">
+            <div className="row justify-content-center">
+                <div className="col-lg-6 text-center">
+                    <div className="copyright-text">
+                        <p>Copyright © 2023, All Right Reserved <a href="https://brightensolutions.com/">Brighten Soluction</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> */}
+</footer>
+      {/* <footer>
       <div id="footer" >
         <div class="contact">
            <img className="b" src={log} alt=""/>
@@ -273,7 +362,7 @@ function Home() {
         
         
       </div>
-    </footer>
+    </footer> */}
       </div>
     )
 }
