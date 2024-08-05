@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 import log from './img/logo.png'
 import g1 from './img/f1.png'
 import g2 from './img/f2.png'
@@ -18,7 +19,21 @@ import f6 from './img/baleno.jpg'
 import f7 from './img/verna.jpg'
 import f8 from './img/i20.jpg'
 
-function Home() {
+import { useNavigate } from "react-router-dom";
+
+const  Home = ({ phoneNumber, message }) => {
+  const navigate =useNavigate();
+
+  const fncar= () =>{
+    navigate('/cars');
+  }
+
+  
+    const whatapp = () => {
+      const encodedMessage = encodeURIComponent("Hi Sir good evining ");
+      const whatsappLink = `https://wa.me/${7742414814}?text=${encodedMessage}`;
+      window.open(whatsappLink, '_blank');
+    };
   
         
     
@@ -38,7 +53,7 @@ function Home() {
         <h2>Affordable price</h2>
         <h1> All Cars Available</h1>
         <p>save more coupons &amp; up to 5% off!</p>
-        <button>Book now</button>
+        <button onClick={whatapp}>Book now</button>
       </section>
       
 
@@ -88,8 +103,8 @@ function Home() {
               <i class="fa-solid fa-star" aria-hidden="true"></i>
             </div>
             <h4 class="price">₹5000</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
-          </div>
+            <i onClick={whatapp} class="fa-brands fa-square-whatsapp fa-beat"></i>
+            </div>
           <div class="product-cart">
             <img src={f2} alt="product image"/>
             <span>Mahindra</span>
@@ -102,7 +117,7 @@ function Home() {
               <i class="fa-solid fa-star" aria-hidden="true"></i>
             </div>
             <h4 class="price">₹5000</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
+            <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>
           </div>
           <div class="product-cart">
             <img src={f3} alt="product image"/>
@@ -116,8 +131,8 @@ function Home() {
               <i class="fa-solid fa-star" aria-hidden="true"></i>
             </div>
             <h4 class="price">₹5500</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
-          </div>
+            <i  onClick={whatapp} class="fa-brands fa-square-whatsapp fa-beat"></i>
+            </div>
           <div class="product-cart">
             <img src={f4} alt="product image"/>
             <span>Mahindra</span>
@@ -130,8 +145,8 @@ function Home() {
               <i class="fa-solid fa-star" aria-hidden="true"></i>
             </div>
             <h4 class="price">₹6000</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
-          </div>
+            <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>
+            </div>
           <div class="product-cart">
             <img src={f5} alt="product image"/>
             <span>Maruti Suzuki</span>
@@ -144,8 +159,8 @@ function Home() {
               <i class="fa-solid fa-star" aria-hidden="true"></i>
             </div>
             <h4 class="price">₹2500</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
-          </div>
+            <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>
+            </div>
           <div class="product-cart">
             <img src={f6} alt="product image"/>
             <span>Maruti Suzuki</span>
@@ -158,8 +173,8 @@ function Home() {
               <i class="fa-solid fa-star" aria-hidden="true"></i>
             </div>
             <h4 class="price">₹3000</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
-          </div>
+            <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>
+            </div>
           <div class="product-cart">
             <img src={f7} alt="product image"/>
             <span>Hundai</span>
@@ -172,8 +187,8 @@ function Home() {
               <i class="fa-solid fa-star" aria-hidden="true"></i>
             </div>
             <h4 class="price">₹4800</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
-          </div>
+            <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>
+            </div>
           <div class="product-cart">
             <img src={f8} alt="product image"/>
             <span>Hundai</span>
@@ -186,11 +201,11 @@ function Home() {
               <i class="fa-solid fa-star" aria-hidden="true"></i>
             </div>
             <h4 class="price">₹3000</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
-          </div>
+            <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>
+             </div>
           
         </div>
-        <button className="butt">Show More</button>
+        <button className="butt" onClick={fncar}>Show More</button>
       </section>
 
    
@@ -305,7 +320,7 @@ function Home() {
             </div>
         </div>
     </div>
-    <button  id="button" ><i class="fa-brands fa-whatsapp"></i></button>
+    <button  id="button" ><i class="fa-brands fa-whatsapp ba1" ></i></button>
     
     {/* <div className="copyright-area">
         <div className="container">
@@ -367,7 +382,4 @@ function Home() {
     )
 }
 
-export default Home;
-
-
-
+export default Home

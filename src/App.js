@@ -10,6 +10,7 @@ import {
     Routes,
     Route,
     Link,
+    useNavigate,
     
 } from "react-router-dom";
 import Home from "./component/Home";
@@ -20,12 +21,14 @@ import Contact from "./component/Contact";
 
 
 
+
+
     
    
 
     
-export const  App = () => {
-    
+const  App =() => {
+   
 
 
     return (
@@ -33,7 +36,7 @@ export const  App = () => {
                 <div>
         <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
         <div class="container-fluid">
-          <img src={logo} class="navbar-brand"  alt="img"/>
+        <img  src={logo} class="navbar-brand" to="/" alt="img"/>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

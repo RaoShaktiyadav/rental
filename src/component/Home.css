@@ -327,9 +327,10 @@ float: left;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.fa-brands{
+.ba1{
   font-size: xx-large;
-  background-color: rgb(20, 216, 20);
+  border-radius: 20%;
+  
 }
 #button{
   background-color: rgb(20, 216, 20);
@@ -343,6 +344,15 @@ float: left;
 #but{
 background-color: #2242f2;
 }
+/* .fa-brands{
+  border-radius: 50%;
+  
+} */
+ .price{
+  float: left;
+  margin-right: 50%;
+ }
+ 
 
 
 /* media Query */
