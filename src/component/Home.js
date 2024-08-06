@@ -92,7 +92,7 @@ const  Home = ({ phoneNumber, message }) => {
         <p>All Types Cars Top Model</p>
         <div class="pro-collection">
           <div class="product-cart">
-            <img src={f1} alt="product image"/>
+            <img src={f1} alt="product img"/>
             <span>Mahindra</span>
             <h4>Black Scorpio S11</h4>
             <div class="stars">
@@ -106,7 +106,7 @@ const  Home = ({ phoneNumber, message }) => {
             <i onClick={whatapp} class="fa-brands fa-square-whatsapp fa-beat"></i>
             </div>
           <div class="product-cart">
-            <img src={f2} alt="product image"/>
+            <img src={f2} alt="product img"/>
             <span>Mahindra</span>
             <h4>White Scorpio S11</h4>
             <div class="stars">
@@ -120,7 +120,7 @@ const  Home = ({ phoneNumber, message }) => {
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>
           </div>
           <div class="product-cart">
-            <img src={f3} alt="product image"/>
+            <img src={f3} alt="product img"/>
             <span>Mahindra</span>
             <h4>Black classic Scorpio S11</h4>
             <div class="stars">
@@ -134,7 +134,7 @@ const  Home = ({ phoneNumber, message }) => {
             <i  onClick={whatapp} class="fa-brands fa-square-whatsapp fa-beat"></i>
             </div>
           <div class="product-cart">
-            <img src={f4} alt="product image"/>
+            <img src={f4} alt="product imag"/>
             <span>Mahindra</span>
             <h4>Black Thar 4*4</h4>
             <div class="stars">
@@ -148,7 +148,7 @@ const  Home = ({ phoneNumber, message }) => {
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>
             </div>
           <div class="product-cart">
-            <img src={f5} alt="product image"/>
+            <img src={f5} alt="product img"/>
             <span>Maruti Suzuki</span>
             <h4> White Swift</h4>
             <div class="stars">
@@ -162,7 +162,7 @@ const  Home = ({ phoneNumber, message }) => {
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>
             </div>
           <div class="product-cart">
-            <img src={f6} alt="product image"/>
+            <img src={f6} alt="product img"/>
             <span>Maruti Suzuki</span>
             <h4>Silver Baleno</h4>
             <div class="stars">
@@ -176,7 +176,7 @@ const  Home = ({ phoneNumber, message }) => {
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>
             </div>
           <div class="product-cart">
-            <img src={f7} alt="product image"/>
+            <img src={f7} alt="product img"/>
             <span>Hundai</span>
             <h4>White Verna 1.6</h4>
             <div class="stars">
@@ -190,7 +190,7 @@ const  Home = ({ phoneNumber, message }) => {
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>
             </div>
           <div class="product-cart">
-            <img src={f8} alt="product image"/>
+            <img src={f8} alt="product img"/>
             <span>Hundai</span>
             <h4>White i20 Asta</h4>
             <div class="stars">
@@ -237,7 +237,7 @@ const  Home = ({ phoneNumber, message }) => {
           </div>
           <div class="small-banners-3">
             <h2  className="a">CARS FOR RENT</h2>
-            <h5></h5>
+            
           </div>
         </div>
       </section>

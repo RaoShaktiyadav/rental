@@ -11,7 +11,7 @@ export default function Blog() {
   return (
     <div>
     <section id="page-header" class="blog-header">
-      <img className='b1' src={b1} />
+      <img className='b1' src={b1} alt='img' />
        </section>
 
   <section id="blog">

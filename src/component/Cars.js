@@ -48,7 +48,7 @@ const Cars =({ phoneNumber, message })=> {
        
         <div class="pro-collection">
           <div class="product-cart">
-            <img src={f1} alt="product image"/>
+            <img src={f1} alt="product img"/>
             <span>Mahindra</span>
             <h4>Black Scorpio S11</h4>
             <div class="stars">
@@ -62,7 +62,7 @@ const Cars =({ phoneNumber, message })=> {
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>
             </div>
           <div class="product-cart">
-            <img src={f2} alt="product image"/>
+            <img src={f2} alt="img"/>
             <span>Mahindra</span>
             <h4>White Scorpio S11</h4>
             <div class="stars">
@@ -75,7 +75,7 @@ const Cars =({ phoneNumber, message })=> {
             <h4 class="price">₹5000</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i></div>
           <div class="product-cart">
-            <img src={f3} alt="product image"/>
+            <img src={f3} alt="product img"/>
             <span>Mahindra</span>
             <h4>Black classic Scorpio S11</h4>
             <div class="stars">
@@ -88,7 +88,7 @@ const Cars =({ phoneNumber, message })=> {
             <h4 class="price">₹5500</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i></div>
           <div class="product-cart">
-            <img src={f4} alt="product image"/>
+            <img src={f4} alt="product img"/>
             <span>Mahindra</span>
             <h4>Black Thar 4*4</h4>
             <div class="stars">
@@ -101,7 +101,7 @@ const Cars =({ phoneNumber, message })=> {
             <h4 class="price">₹6000</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i></div>
           <div class="product-cart">
-            <img src={f5} alt="product image"/>
+            <img src={f5} alt="product img"/>
             <span>Maruti Suzuki</span>
             <h4> White Swift</h4>
             <div class="stars">
@@ -114,7 +114,7 @@ const Cars =({ phoneNumber, message })=> {
             <h4 class="price">₹2500</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i></div>
           <div class="product-cart">
-            <img src={f6} alt="product image"/>
+            <img src={f6} alt="product img"/>
             <span>Maruti Suzuki</span>
             <h4>Silver Baleno</h4>
             <div class="stars">
@@ -127,7 +127,7 @@ const Cars =({ phoneNumber, message })=> {
             <h4 class="price">₹3000</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i> </div>
           <div class="product-cart">
-            <img src={f7} alt="product image"/>
+            <img src={f7} alt="product img"/>
             <span>Hundai</span>
             <h4>White Verna 1.6</h4>
             <div class="stars">
@@ -140,7 +140,7 @@ const Cars =({ phoneNumber, message })=> {
             <h4 class="price">₹4800</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i> </div>
           <div class="product-cart">
-            <img src={f8} alt="product image"/>
+            <img src={f8} alt="product img"/>
             <span>Hundai</span>
             <h4>White i20 Asta</h4>
             <div class="stars">
@@ -159,7 +159,7 @@ const Cars =({ phoneNumber, message })=> {
 
 
           <div class="product-cart">
-            <img src={f9} alt="product image"/>
+            <img src={f9} alt="product img"/>
             <span>Mahindra</span>
             <h4>Black Thar 4*2</h4>
             <div class="stars">
@@ -172,7 +172,7 @@ const Cars =({ phoneNumber, message })=> {
             <h4 class="price">₹5500</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i></div>
           <div class="product-cart">
-            <img src={f10} alt="product image"/>
+            <img src={f10} alt="product img"/>
             <span>Toyota</span>
             <h4>White fortuner</h4>
             <div class="stars">
@@ -185,7 +185,7 @@ const Cars =({ phoneNumber, message })=> {
             <h4 class="price">₹10000</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i></div>
           <div class="product-cart">
-            <img src={f11} alt="product image"/>
+            <img src={f11} alt="product img"/>
             <span>Maruti Suzuki</span>
             <h4>Black Swift</h4>
             <div class="stars">
@@ -198,7 +198,7 @@ const Cars =({ phoneNumber, message })=> {
             <h4 class="price">₹3000</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i></div>
           <div class="product-cart">
-            <img src={f13} alt="product image"/>
+            <img src={f13} alt="product img"/>
             <span>Mahindra</span>
             <h4>White boloro</h4>
             <div class="stars">
@@ -211,7 +211,7 @@ const Cars =({ phoneNumber, message })=> {
             <h4 class="price">₹5000</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i></div>
           <div class="product-cart">
-            <img src={f15} alt="product image"/>
+            <img src={f15} alt="product imag"/>
             <span>KIA</span>
             <h4> White Seltos</h4>
             <div class="stars">
@@ -224,7 +224,7 @@ const Cars =({ phoneNumber, message })=> {
             <h4 class="price">₹4000</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>  </div>
           <div class="product-cart">
-            <img src={f14} alt="product image"/>
+            <img src={f14} alt="product img"/>
             <span>Maruti Suzuki</span>
             <h4>White Brazza</h4>
             <div class="stars">
@@ -237,7 +237,7 @@ const Cars =({ phoneNumber, message })=> {
             <h4 class="price">₹4000</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i></div>
           <div class="product-cart">
-            <img src={f12} alt="product image"/>
+            <img src={f12} alt="product img"/>
             <span>Hundai</span>
             <h4>Black Verna 1.6</h4>
             <div class="stars">
@@ -250,7 +250,7 @@ const Cars =({ phoneNumber, message })=> {
             <h4 class="price">₹4800</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i></div>
           <div class="product-cart">
-            <img src={f16} alt="product image"/>
+            <img src={f16} alt="product img"/>
             <span>Hundai</span>
             <h4>White creata</h4>
             <div class="stars">
