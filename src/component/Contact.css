@@ -121,4 +121,19 @@ iframe{
   #but{
   background-color: #2242f2;
   }
+  @media only screen and (max-width:600px){
+.cd{
+  display: grid;
+  height: auto;
+}
+.cb{
+  width: 94%;
+}
+.cc{
+  width: 94%;
+}
+  
+  
+  };
+
   

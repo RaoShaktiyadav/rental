@@ -279,7 +279,7 @@ const Cars =({ phoneNumber, message })=> {
                         <i className="fas fa-map-marker-alt"></i>
                         <div className="cta-text">
                             <h4 className="footex">Find us</h4>
-                            <span className="footex">1010 Avenue, sw 54321, chandigarh</span>
+                            <span className="footex">Near Manipal University jaipur</span>
                         </div>
                     </div>
                 </div>
@@ -288,7 +288,7 @@ const Cars =({ phoneNumber, message })=> {
                         <i className="fas fa-phone"></i>
                         <div className="cta-text">
                             <h4 className="footex">Call us</h4>
-                            <span>9876543210 0</span>
+                            <span>8901636636</span>
                         </div>
                     </div>
                 </div>

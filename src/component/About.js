@@ -114,16 +114,16 @@ Don’t put a limit to your travel plans – our long-duration bookings are here
                            <i className="fas fa-map-marker-alt"></i>
                            <div className="cta-text">
                                <h4 className="footex">Find us</h4>
-                               <span className="footex">1010 Avenue, sw 54321, chandigarh</span>
-                           </div>
-                       </div>
-                   </div>
-                   <div className="col-xl-4 col-md-4 mb-30">
-                       <div className="single-cta">
-                           <i className="fas fa-phone"></i>
-                           <div className="cta-text">
-                               <h4 className="footex">Call us</h4>
-                               <span>9876543210 0</span>
+                               <span className="footex">Near Manipal University jaipur</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-xl-4 col-md-4 mb-30">
+                    <div className="single-cta">
+                        <i className="fas fa-phone"></i>
+                        <div className="cta-text">
+                            <h4 className="footex">Call us</h4>
+                            <span>8901636636</span>
                            </div>
                        </div>
                    </div>
