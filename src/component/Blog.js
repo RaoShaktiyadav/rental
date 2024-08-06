@@ -22,7 +22,7 @@ export default function Blog() {
           <div class="blog-details">
               <h4>The Cotton-Jersey Zip-Up Hoodie</h4>
               <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies</p>
-              <a href="#">CONTINUE READING</a>
+              <a href="">CONTINUE READING</a>
           </div>
           <h1>13/01</h1>
       </div>
@@ -33,7 +33,7 @@ export default function Blog() {
           <div class="blog-details">
               <h4>How to Style a Quiff</h4>
               <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies</p>
-              <a href="#">CONTINUE READING</a>
+              <a href="">CONTINUE READING</a>
           </div>
           <h1>13/04</h1>
       </div>
@@ -44,7 +44,7 @@ export default function Blog() {
           <div class="blog-details">
               <h4>Must-Have Skater Girl Items </h4>
               <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies</p>
-              <a href="#">CONTINUE READING</a>
+              <a href="">CONTINUE READING</a>
           </div>
           <h1>12/01</h1>
       </div>
@@ -55,7 +55,7 @@ export default function Blog() {
           <div class="blog-details">
               <h4>Runway-Inspired Trends</h4>
               <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies</p>
-              <a href="#">CONTINUE READING</a>
+              <a href="">CONTINUE READING</a>
           </div>
           <h1>16/01</h1>
       </div>
@@ -66,7 +66,7 @@ export default function Blog() {
           <div class="blog-details">
               <h4>AW20 Meanswear Trends</h4>
               <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies</p>
-              <a href="#">CONTINUE READING</a>
+              <a href="">CONTINUE READING</a>
           </div>
           <h1>10/03</h1>
       </div>
@@ -75,9 +75,9 @@ export default function Blog() {
 
 
   <section id="pagination" class="section-p1">
-      <a href="#">1</a>
-      <a href="#">2</a>
-      <a href="#"><i class="fa-solid fa-arrow-right-long"></i></a>
+      <a href="">1</a>
+      <a href="">2</a>
+      <a href=""><i class="fa-solid fa-arrow-right-long"></i></a>
   </section>
 
   
