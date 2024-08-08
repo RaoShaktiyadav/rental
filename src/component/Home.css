@@ -63,11 +63,10 @@
  }
  #features {
     display: flex;
-    align-items: center;
+    flex-wrap:wrap ;
     justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    margin: 0 60px;
+    
   }
   #features .f-box {
     width: 180px;
