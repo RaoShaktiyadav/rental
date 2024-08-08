@@ -12,6 +12,7 @@ import {
     Link,
     
     
+    
 } from "react-router-dom";
 import Home from "./component/Home";
 import Cars from "./component/Cars";
@@ -28,7 +29,7 @@ import Contact from "./component/Contact";
 
     
 const  App =() => {
-   
+  
 
 
     return (
@@ -36,7 +37,7 @@ const  App =() => {
                 <div>
         <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
         <div class="container-fluid">
-        <img  src={logo} class="navbar-brand" to="/" alt="img"/>
+       <Link  to="/"> <img  src={logo} class="navbar-brand" to="/" alt="img"/></Link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

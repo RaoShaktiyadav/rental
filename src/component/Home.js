@@ -26,7 +26,7 @@ const  Home = ({ phoneNumber, message }) => {
 
   const fncar= () =>{
     navigate('/cars');
-  }
+  };
 
   
     const whatapp = () => {
@@ -320,7 +320,7 @@ const  Home = ({ phoneNumber, message }) => {
             </div>
         </div>
     </div>
-    <button  id="button" ><i class="fa-brands fa-whatsapp ba1" ></i></button>
+    <button id="button" onClick={whatapp} ><i class="fa-brands fa-whatsapp ba1" ></i></button>
     
     {/* <div className="copyright-area">
         <div className="container">

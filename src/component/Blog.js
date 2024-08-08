@@ -7,8 +7,15 @@ import c3 from './img/i20.jpg';
 import c4 from './img/i20.jpg';
 import c5 from './img/i20.jpg';
 
-export default function Blog() {
-  return (
+const Blog=({ phoneNumber, message })=> {
+
+
+    const whatapp = () => {
+      const encodedMessage = encodeURIComponent("Hi Sir good evining ");
+      const whatsappLink = `https://wa.me/${7742414814}?text=${encodedMessage}`;
+      window.open(whatsappLink, '_blank');
+    };
+    return (
     <div>
     <section id="page-header" class="blog-header">
       <img className='b1' src={b1} alt='img' />
@@ -22,7 +29,7 @@ export default function Blog() {
           <div class="blog-details">
               <h4>The Cotton-Jersey Zip-Up Hoodie</h4>
               <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies</p>
-              {/* <a href="">CONTINUE READING</a> */}
+              {/*  */}
           </div>
           <h1>13/01</h1>
       </div>
@@ -159,7 +166,7 @@ export default function Blog() {
             </div>
         </div>
     </div>
-    <button  id="button"><i class="fa-brands fa-whatsapp"></i></button>
+    <button  id="button" onClick={whatapp}><i class="fa-brands fa-whatsapp"></i></button>
     
     {/* <div className="copyright-area">
         <div className="container">
@@ -176,3 +183,4 @@ export default function Blog() {
   </div>
   )
 }
+export default Blog;

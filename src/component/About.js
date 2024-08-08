@@ -1,7 +1,14 @@
 import React from "react";
 import log from './img/logo.png'
 
-function About() {
+const About=({ phoneNumber, message })=> {
+
+
+    const whatapp = () => {
+      const encodedMessage = encodeURIComponent("Hi Sir good evining ");
+      const whatsappLink = `https://wa.me/${7742414814}?text=${encodedMessage}`;
+      window.open(whatsappLink, '_blank');
+    };
     return (
        <div> 
         
@@ -180,7 +187,7 @@ Don’t put a limit to your travel plans – our long-duration bookings are here
                </div>
            </div>
        </div>
-       <button  id="button"><i class="fa-brands fa-whatsapp"></i></button>
+       <button  id="button" onClick={whatapp}><i class="fa-brands fa-whatsapp"></i></button>
        
        {/* <div className="copyright-area">
            <div className="container">

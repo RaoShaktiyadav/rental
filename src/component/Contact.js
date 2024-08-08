@@ -2,8 +2,15 @@ import React from "react";
 
 import log from './img/logo.png'
 
-function Contact() {
-    return (
+const Contact =({ phoneNumber, message })=> {
+
+
+    const whatapp = () => {
+      const encodedMessage = encodeURIComponent("Hi Sir good evining ");
+      const whatsappLink = `https://wa.me/${7742414814}?text=${encodedMessage}`;
+      window.open(whatsappLink, '_blank');
+    };
+     return (
        <div>
         <div className="ca"></div>
         <h1 className="ce">Write us</h1>
@@ -141,7 +148,7 @@ function Contact() {
             </div>
         </div>
     </div>
-    <button  id="button"><i class="fa-brands fa-whatsapp"></i></button>
+    <button  id="button" onClick={whatapp}><i class="fa-brands fa-whatsapp"></i></button>
     
     {/* <div className="copyright-area">
         <div className="container">
