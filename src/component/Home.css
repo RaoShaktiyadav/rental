@@ -112,14 +112,14 @@
   }
 
 .product-section{
-  border: 1px solid black;
+ 
   margin: 0% 2%;
 }
   
 
 
   .product-section .pro-collection {
-    border: 1px solid red;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -342,6 +342,7 @@ float: left;
 }
 .inco{
   background-color: #000000;
+  color: #cdd4f8;
   
 }
 

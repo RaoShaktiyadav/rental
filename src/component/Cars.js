@@ -1,6 +1,6 @@
 import React from 'react'
 import log from './img/logo.png'
-
+import { useState } from "react";
 import f1 from './img/black s11.jpg'
 import f2 from './img/white s11.jpg'
 import f3 from './img/black classic s11.jpg'
@@ -27,6 +27,56 @@ const Cars =({ phoneNumber, message })=> {
     const whatsappLink = `https://wa.me/${7742414814}?text=${encodedMessage}`;
     window.open(whatsappLink, '_blank');
   };
+
+  const [inputValue, setInputValue] = useState('');
+
+  // Handle changes in the input field
+  const handleInputChange = (event) => {
+    setInputValue(event.target.value);
+  };
+
+  // Store the input value in localStorage on button click without erasing previous data
+  const saveData = () => {
+    // Get the existing data from localStorage
+    const existingData = JSON.parse(localStorage.getItem('myInputData')) || [];
+    
+    // Add the new input value to the array
+    const updatedData = [...existingData, inputValue];
+
+    // Store the updated array back in localStorage
+    localStorage.setItem('myInputData', JSON.stringify(updatedData));
+
+    // Clear the input field
+    setInputValue('');
+  };
+
+  const loction = () => {
+    // some complex logic here
+    window.open("https://maps.app.goo.gl/wLvT7pK76kB3se4z6","_blank")
+  };
+
+  const Dail = () => {
+    const phoneNumber = "+1234567890";
+    if (navigator.userAgent.match(/Mobi/)) {
+      // It's a mobile device
+      window.location.href = `tel:${phoneNumber}`;
+    } else {
+      alert("This function is only available on mobile devices.");
+    }
+  };
+
+
+  const mail = () => {
+    const email = "shaktiyadav635@gmail.com";
+    const subject = "Hello from Rental";
+    const body = "I wanted to reach out to you regarding car details or somthing else ...";
+    const cc = "cc@example.com";
+    const bcc = "bcc@example.com";
+    
+    window.location.href = `mailto:${email}?cc=${encodeURIComponent(cc)}&bcc=${encodeURIComponent(bcc)}&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  };
+  
+   
   return (
     <div>
 
@@ -58,7 +108,7 @@ const Cars =({ phoneNumber, message })=> {
               <i class="fa-solid fa-star" aria-hidden="true"></i>
               <i class="fa-solid fa-star" aria-hidden="true"></i>
             </div>
-            <h4 class="price">₹5000</h4>
+            <h4 class="price">₹5500</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i>
             </div>
           <div class="product-cart">
@@ -72,7 +122,7 @@ const Cars =({ phoneNumber, message })=> {
               <i class="fa-solid fa-star" aria-hidden="true"></i>
               <i class="fa-solid fa-star" aria-hidden="true"></i>
             </div>
-            <h4 class="price">₹5000</h4>
+            <h4 class="price">₹5500</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i></div>
           <div class="product-cart">
             <img src={f3} alt="product img"/>
@@ -182,7 +232,7 @@ const Cars =({ phoneNumber, message })=> {
               <i class="fa-solid fa-star" aria-hidden="true"></i>
               <i class="fa-solid fa-star" aria-hidden="true"></i>
             </div>
-            <h4 class="price">₹10000</h4>
+            <h4 class="price">₹15000</h4>
             <i onClick={whatapp}  class="fa-brands fa-square-whatsapp fa-beat"></i></div>
           <div class="product-cart">
             <img src={f11} alt="product img"/>
@@ -277,7 +327,7 @@ const Cars =({ phoneNumber, message })=> {
                 <div className="col-xl-4 col-md-4 mb-30">
                     <div className="single-cta">
                         <i className="fas fa-map-marker-alt"></i>
-                        <div className="cta-text">
+                        <div className="cta-text" onClick={loction}>
                             <h4 className="footex">Find us</h4>
                             <span className="footex">Near Manipal University jaipur</span>
                         </div>
@@ -286,7 +336,7 @@ const Cars =({ phoneNumber, message })=> {
                 <div className="col-xl-4 col-md-4 mb-30">
                     <div className="single-cta">
                         <i className="fas fa-phone"></i>
-                        <div className="cta-text">
+                        <div className="cta-text" onClick={Dail}>
                             <h4 className="footex">Call us</h4>
                             <span>8901636636</span>
                         </div>
@@ -295,7 +345,7 @@ const Cars =({ phoneNumber, message })=> {
                 <div className="col-xl-4 col-md-4 mb-30">
                     <div className="single-cta">
                         <i className="far fa-envelope-open"></i>
-                        <div className="cta-text">
+                        <div className="cta-text" onClick={mail}>
                             <h4 className="footex">Mail us</h4>
                             <span className="footex">mail@info.com</span>
                         </div>
@@ -336,8 +386,8 @@ const Cars =({ phoneNumber, message })=> {
                         </div>
                         <div className="subscribe-form">
                             <form action="#" class="ng-pristine ng-valid">
-                                <input className="inco" type="text" placeholder="Email Address"/>
-                                <button id="but"><i className="fab fa-telegram-plane"></i></button>
+                                <input className="inco" type="email"  value={inputValue} onChange={handleInputChange} placeholder="Email Address"/>
+                                <button id="but" onClick={saveData}><i className="fab fa-telegram-plane"></i></button>
                             </form>
                         </div>
                     </div>

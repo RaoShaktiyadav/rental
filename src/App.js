@@ -14,6 +14,7 @@ import {
     
     
 } from "react-router-dom";
+// import { useState } from "react";
 import Home from "./component/Home";
 import Cars from "./component/Cars";
 import Blog from "./component/Blog";
@@ -25,17 +26,32 @@ import Contact from "./component/Contact";
 
 
     
-   
 
     
 const  App =() => {
+  // { onSearch }
+  //   const [searchTerm, setSearchTerm] = useState("");
   
+  //   const handleInputChange = (e) => {
+  //     setSearchTerm(e.target.value);
+  //   };
+  
+  //   const handleSubmit = (e) => {
+  //     e.preventDefault();
+  //     onSearch(searchTerm);
+  //   };  
+  
+  // const handleSearch = (query) => {
+  //   console.log("Searching for:", query);
+  //   // Implement the search logic here, e.g., filter data, make API calls, etc.
+  // };
+
 
 
     return (
             <Router>
                 <div>
-        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light" >
         <div class="container-fluid">
         <img  src={logo} class="navbar-brand" to="/" alt="img"/>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,8 +77,8 @@ const  App =() => {
              
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2"  placeholder="Search..."/>
+              <button class="btn btn-outline-success" type="submit" >Search</button>
             </form>
           </div>
         </div>
@@ -100,6 +116,6 @@ const  App =() => {
         );
     
     };
- 
+  
 export default App;
 
