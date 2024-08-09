@@ -62,6 +62,7 @@
     margin-top: 20px;
  }
  #features {
+  
     display: flex;
     flex-wrap:wrap ;
     justify-content: space-around;
@@ -110,15 +111,19 @@
     background-color: #fff2e5;
   }
 
-
+.product-section{
+  border: 1px solid black;
+  margin: 0% 2%;
+}
   
 
 
   .product-section .pro-collection {
+    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 60px;
+    
   }
   .product-section h1,
   .product-section p {
@@ -130,7 +135,7 @@
     padding: 13px;
     margin-bottom: 30px;
     border-radius: 25px;
-    position: relative;
+    
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     transition: box-shadow 0.2s;
   }

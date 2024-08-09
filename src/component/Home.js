@@ -87,11 +87,11 @@ const  Home = ({ phoneNumber, message }) => {
       </section>
 
 
-      <section class="product-section">
+      <section className="product-section">
         <h1 className="h1">Available Cars</h1>
         <p>All Types Cars Top Model</p>
-        <div class="pro-collection">
-          <div class="product-cart">
+        <div className="pro-collection">
+          <div className="product-cart">
             <img src={f1} alt="product img"/>
             <span>Mahindra</span>
             <h4>Black Scorpio S11</h4>
