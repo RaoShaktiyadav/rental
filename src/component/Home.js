@@ -35,6 +35,16 @@ const  Home = ({ phoneNumber, message }) => {
       const whatsappLink = `https://wa.me/${7742414814}?text=${encodedMessage}`;
       window.open(whatsappLink, '_blank');
     };
+    const what15 = () => {
+      const encodedMessage = encodeURIComponent("Hi Sir good evining we picup a car for one month and we get offer of 15% off");
+      const whatsappLink = `https://wa.me/${7742414814}?text=${encodedMessage}`;
+      window.open(whatsappLink, '_blank');
+    };
+    const what10 = () => {
+      const encodedMessage = encodeURIComponent("Hi Sir good evining we picup a car for ten days and we get offer of 10% off ");
+      const whatsappLink = `https://wa.me/${7742414814}?text=${encodedMessage}`;
+      window.open(whatsappLink, '_blank');
+    };
 
     const [inputValue, setInputValue] = useState('');
 
@@ -62,6 +72,10 @@ const  Home = ({ phoneNumber, message }) => {
     const loction = () => {
       // some complex logic here
       window.open("https://maps.app.goo.gl/wLvT7pK76kB3se4z6","_blank")
+    };
+    const insta = () => {
+      // some complex logic here
+      window.open("https://www.instagram.com/shree_shyam_car_rental/?igsh=MXE0a2JkNzBqamhyNw%3D%3D","_blank")
     };
 
     const Dail = () => {
@@ -263,13 +277,13 @@ const  Home = ({ phoneNumber, message }) => {
             <h4>Crazy Deals</h4>
             <h2>Get 15% off on one month Booking</h2>
             <span>Like new condition cars on rent</span>
-            <button class="banner-btn">Check here</button>
+            <button class="banner-btn" onClick={what15}>Check here</button>
           </div>
           <div class="big-banners-2">
             <h4>Daily Deals</h4>
             <h2>Get 10% off on 10 days Booking</h2>
             <span>Clean and hygienic</span>
-            <button class="banner-btn">Collection</button>
+            <button class="banner-btn" onClick={what10}>Collection</button>
           </div>
         </div>
         <div class="small-banners">
@@ -277,9 +291,9 @@ const  Home = ({ phoneNumber, message }) => {
             <h2 className="a">FOR MORE OFFERS</h2>
             <h5>Check daily our website</h5>
           </div>
-          <div class="small-banners-2">
+          <div class="small-banners-2" onClick={insta}>
             <h2  className="a">FOLLOW US ON SOCIAL MEDIA</h2>
-            <h5>Instagram</h5>
+            <h5 >Instagram</h5>
           </div>
           <div class="small-banners-3">
             <h2  className="a">CARS FOR RENT</h2>
