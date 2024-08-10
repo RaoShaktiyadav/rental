@@ -56,7 +56,7 @@ const Cars =({ phoneNumber, message })=> {
   };
 
   const Dail = () => {
-    const phoneNumber = "+1234567890";
+    const phoneNumber = "+918901636636";
     if (navigator.userAgent.match(/Mobi/)) {
       // It's a mobile device
       window.location.href = `tel:${phoneNumber}`;
