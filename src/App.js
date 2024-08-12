@@ -2,7 +2,7 @@ import "./App.css";
 import "./component/Home.css";
 import "./component/Cars.css"; 
 import "./component/Contact.css"; 
-
+import "./component/Blog.css"
 import "./component/About.css";
 import logo from './component/img/logo.png'
 import {
