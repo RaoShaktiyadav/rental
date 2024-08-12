@@ -2,7 +2,7 @@ import "./App.css";
 import "./component/Home.css";
 import "./component/Cars.css"; 
 import "./component/Contact.css"; 
-import "./component/Blog.css";
+
 import "./component/About.css";
 import logo from './component/img/logo.png'
 import {
@@ -17,7 +17,7 @@ import {
 // import { useState } from "react";
 import Home from "./component/Home";
 import Cars from "./component/Cars";
-import Blog from "./component/Blog";
+
 import About from "./component/About";
 import Contact from "./component/Contact";
 
@@ -65,9 +65,7 @@ const  App =() => {
               <li class="nav-item">
                 <Link class="nav-link active" aria-current="page" to="/Cars">Cars</Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/Blog">Blog</Link>
-              </li>
+              
               <li class="nav-item">
                 <Link class="nav-link active" aria-current="page" to="/About">About</Link>
               </li>
@@ -98,10 +96,10 @@ const  App =() => {
                             path="/cars"
                             element={<Cars/>}
                         ></Route>
-                        <Route
+                        {/* <Route
                             path="/Blog"
                             element={<Blog />}
-                        ></Route>
+                        ></Route> */}
                         <Route
                             path="/about"
                             element={<About />}

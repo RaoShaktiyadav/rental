@@ -6,7 +6,7 @@ const About=({ phoneNumber, message })=> {
 
     const whatapp = () => {
       const encodedMessage = encodeURIComponent("Hi Sir good evining ");
-      const whatsappLink = `https://wa.me/${7742414814}?text=${encodedMessage}`;
+      const whatsappLink = `https://wa.me/${+918901636636}?text=${encodedMessage}`;
       window.open(whatsappLink, '_blank');
     };
     const [inputValue, setInputValue] = useState('');
@@ -89,7 +89,7 @@ const About=({ phoneNumber, message })=> {
                         
 
 
-        <p className="ab5">Introducing Self Drive Jaipur, the best option for self-drive automobiles in Jaipur. With a varied fleet of cars to meet all of your travel needs, we are committed to providing excellent car rental services. Ensuring a hassle-free experience for our customers is our objective by providing convenience, flexibility, and affordability. It has never been easier to see Jaipur thanks to our user-friendly booking system and dedication to excellence. Enjoy the freedom to explore the Pink City at your own speed by renting a car from Self Drive Jaipur, a dependable and comfortable option.</p>
+        <p className="ab5">Introducing Shree_Shyam_Car_Rental Jaipur, the best option for self-drive automobiles in Jaipur. With a varied fleet of cars to meet all of your travel needs, we are committed to providing excellent car rental services. Ensuring a hassle-free experience for our customers is our objective by providing convenience, flexibility, and affordability. It has never been easier to see Jaipur thanks to our user-friendly booking system and dedication to excellence. Enjoy the freedom to explore the Pink City at your own speed by renting a car from Self Drive Jaipur, a dependable and comfortable option.</p>
        
         </div>
         </div>
@@ -107,7 +107,7 @@ Rent a car &amp; start traveling with zero paperwork requirements! All you need 
 <div className="ab7">
 <h3 class="elementor-heading elementor-size-default">Short-Duration</h3>
 <p className="ab8">
-Why pay for a full day when you need the car for only 8 hours? Self drive jaipur lets you rent a car for as low as 8 hours only!
+Why pay for a full day when you need the car for only 8 hours? Shree_Shyam_Car_Rental jaipur lets you rent a car for as low as 8 hours only!
 </p>
 </div>
 <div className="ab7">
@@ -130,15 +130,14 @@ Don’t put a limit to your travel plans – our long-duration bookings are here
 <div className="ab10">
 <p className="ab13">Selecting Self-Drive Travelers visiting the energetic city of Jaipur can take advantage of a number of conveniences and advantages provided by Jaipur Car Rental. The following are strong arguments in favor of self-drive Jaipur car rental:</p>
 <p className="ab14"><br/><strong>Liberty and Adaptability:</strong>You may go at your own speed while exploring Jaipur and its surroundings when you rent a self-drive car in Jaipur. Because you’re not restricted to certain times or routes, you can customize your itinerary to suit your interests.</p>
- <p className="ab14"><strong>Convenience:</strong> By renting a car from Self Drive Jaipur, you may avoid depending on pricey taxi services or public transportation. You may save time and hassle by picking up and dropping off your rental car at handy locations.</p>
  <p className="ab14"><strong>Flexibility and Freedom:</strong>You can explore Jaipur and its surroundings at your own speed when you rent a self-drive car in Jaipur. Because you’re not restricted to certain times or routes, you can customize your itinerary to suit your interests.</p>
-  <p className="ab14"><strong>Convenience:</strong> By renting a car from Self Drive Jaipur, you may avoid depending on pricey taxi services or public transportation. You may save time and hassle by picking up and dropping off your rental car at handy locations.</p>
+  <p className="ab14"><strong>Convenience:</strong> By renting a car from Shree_Shyam_Car_Rental Jaipur, you may avoid depending on pricey taxi services or public transportation. You may save time and hassle by picking up and dropping off your rental car at handy locations.</p>
   <p className="ab14"><strong>Various Vehicles:</strong> Self-Driving Jaipur has a wide selection of well-kept cars to choose from to meet your requirements and tastes. Whether you’re going alone, with family, or in a group, you may locate the ideal vehicle to meet your needs.</p>
   <p className="ab14"><strong>Quality and Safety:</strong> To guarantee peak performance and passenger safety, every car in the Self Drive Jaipur fleet goes through extensive safety inspections and routine maintenance. You may drive with assurance because your rental automobile satisfies the highest requirements for dependability and quality.</p>
   <p className="ab14"><strong>Clear Pricing:</strong> Independent Clear pricing is provided by Jaipur Car Rental; there are no additional costs or surprises. You’ll be able to plan your travel spending more efficiently because you’ll know exactly what you’re getting upfront.</p>
-  <p className="ab14"><strong>Simple Booking Process:</strong> Self Drive Jaipur makes renting a car quick, simple, and hassle-free. All you have to do is get in touch with them by phone, email, or online to reserve your car for the preferred dates. You can get help from their helpful and courteous personnel with any questions or special requests.</p>
+  <p className="ab14"><strong>Simple Booking Process:</strong> Shree_Shyam_Car_Rental Jaipur makes renting a car quick, simple, and hassle-free. All you have to do is get in touch with them by phone, email, or online to reserve your car for the preferred dates. You can get help from their helpful and courteous personnel with any questions or special requests.</p>
   <p className="ab14"><strong>Customer happiness:</strong> At every stage of the rental process, Self Drive Jaipur aims to surpass your expectations and places a high priority on customer happiness. They are dedicated to giving each customer a flawless and joyful experience by offering top-notch service, dependable cars, and individualized support.</p>
-  <p className="ab13">Finally, for tourists visiting Jaipur and its surrounding attractions, self-drive Jaipur car rentals provide unmatched ease, flexibility, and peace of mind. You can rely on Self Drive Jaipur to improve your travel experience and make your trip unforgettable because of their extensive selection of cars, open pricing policy, and dedication to client happiness.</p>
+  <p className="ab13">Finally, for tourists visiting Jaipur and its surrounding attractions, Shree_Shyam_Car_Rental Jaipur car rentals provide unmatched ease, flexibility, and peace of mind. You can rely on Self Drive Jaipur to improve your travel experience and make your trip unforgettable because of their extensive selection of cars, open pricing policy, and dedication to client happiness.</p>
   </div>
 
   </div>

@@ -32,17 +32,17 @@ const  Home = ({ phoneNumber, message }) => {
   
     const whatapp = () => {
       const encodedMessage = encodeURIComponent("Hi Sir good evining ");
-      const whatsappLink = `https://wa.me/${7742414814}?text=${encodedMessage}`;
+      const whatsappLink = `https://wa.me/${+918901636636}?text=${encodedMessage}`;
       window.open(whatsappLink, '_blank');
     };
     const what15 = () => {
       const encodedMessage = encodeURIComponent("Hi Sir good evining we picup a car for one month and we get offer of 15% off");
-      const whatsappLink = `https://wa.me/${7742414814}?text=${encodedMessage}`;
+      const whatsappLink = `https://wa.me/${+918901636636}?text=${encodedMessage}`;
       window.open(whatsappLink, '_blank');
     };
     const what10 = () => {
       const encodedMessage = encodeURIComponent("Hi Sir good evining we picup a car for ten days and we get offer of 10% off ");
-      const whatsappLink = `https://wa.me/${7742414814}?text=${encodedMessage}`;
+      const whatsappLink = `https://wa.me/${+918901636636}?text=${encodedMessage}`;
       window.open(whatsappLink, '_blank');
     };
 

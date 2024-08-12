@@ -24,7 +24,7 @@ const Cars =({ phoneNumber, message })=> {
 
   const whatapp = () => {
     const encodedMessage = encodeURIComponent("Hi Sir good evining ");
-    const whatsappLink = `https://wa.me/${7742414814}?text=${encodedMessage}`;
+    const whatsappLink = `https://wa.me/${+918901636636}?text=${encodedMessage}`;
     window.open(whatsappLink, '_blank');
   };
 
