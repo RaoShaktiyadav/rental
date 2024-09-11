@@ -22,7 +22,7 @@ import f8 from './img/i20.jpg'
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-const  Home = ({ phoneNumber, message }) => {
+const  Home = () => {
   const navigate =useNavigate();
 
   const fncar= () =>{
